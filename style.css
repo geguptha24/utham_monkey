@@ -1,0 +1,34 @@
+* {
+    box-sizing: center;
+    margin:0;
+    padding:0;
+}
+
+body {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    
+}
+
+div {
+    cursor:"pointer";
+    font-size:10rem;
+}
+
+#text {
+    font-size:medium;
+    background-color:coral;
+    color:white;
+    padding:10px;
+    border-radius: 10px;
+}
+
+#text span {
+    background-color:crimson;
+    padding:5px;
+    border-radius: 5px;
+    font-size:x-large;
+}
